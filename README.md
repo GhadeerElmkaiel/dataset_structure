@@ -54,6 +54,7 @@ eahc of the new folders contains **colored or gray** masks of a specific class (
 
 ## Other useful codes
 In this repository there are also different code files for different tasks, the main one is calculating metrics which can be found in the ```Metrics``` folder.   
-another imprtant code is ```extract_masks.py``` which creates the masks for individual classes  
+another imprtant code is ```extract_masks.py``` which creates the masks for individual classes and for the additional combination of classes such ass ***(Glass_and_mirrors,  All_Optical, and All_Floor)***   
 ```get_class_distribution.py``` code is to represent the classes distribution in a dataset 
-```add_mask_to_image.py``` code is to add a layer of color which represent the mask over the RGB image.
+```add_mask_to_image.py``` code is to add a layer of color which represent the mask over the RGB image. 
+```convert_images_to_palette.py``` code is to convert RGB images to palette (For SegFormer training).
